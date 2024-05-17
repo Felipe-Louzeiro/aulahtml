@@ -58,32 +58,6 @@ header .conteiner {
   display: inline-block;
 }
 
-.botaoenviar {
-  background-color: red;
-  border-radius: 10px;
-}
-
-#titulo {
-  font-family: sans-serif;
-  color: purple;
-  margin-left: 7%;
-}
-
-#subtitulo {
-  font-family: sans-serif;
-  color: gray;
-  margin-left: 10%;
-}
-¨ fieldset {
-  border: 0;
-}
-
-input,
-textarea,
-button {
-  border-radius: 5px;
-}
-
 .homem {
   margin-left: 900px;
 }
@@ -91,20 +65,41 @@ button {
 .bemvindo {
   font-size: 50px;
   font-family: fantasy;
-  display: block;
-  border-radius: 30px;
-}
-
-.infoservices {
-  width: 200px;
-  height: 200px;
-  /* position: fixed; */
-  border-radius: 5px;
-  margin-left: 600px;
   text-align: center;
-  background-image: linear-gradient(rgb(132, 0, 255), rgb(255, 132, 224));
 }
 
 .visa {
   margin-left: 20px;
+}
+
+.formulario {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ff6565;
+  border-radius: 8px;
+  background-color: #80b0f8;
+  margin: auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 350px;
+  height: 500px;
+}
+
+.faleconosco {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.imgfale {
+  margin-top: 1%;
+  margin-left: 55px;
+}
+
+.sendbutton {
+  text-align: center;
+
+}
+
+#mensagem, #nome, #email{
+  color: #0569ff;
 }
